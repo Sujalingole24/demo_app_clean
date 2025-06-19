@@ -243,3 +243,5 @@ app_license = "mit"
 # }
 
 # Test update: Added this comment to show Git changes for manager review
+fixtures = ["DocType"]
+
