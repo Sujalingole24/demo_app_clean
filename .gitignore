@@ -1,7 +1,27 @@
-.DS_Store
+# Byte-compiled / optimized / DLL files
 *.pyc
-*.egg-info
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment and dependency folders
+.env
+env/
+node_modules/
+
+# Distribution / packaging
+*.egg-info/
+*.bak
+*.zip
+*.tar.gz
+
+# Logs and database
+*.log
+*.db
+*.sqlite3
+
+# macOS and IDE files
+.DS_Store
 *.swp
 tags
-node_modules
-__pycache__
+
