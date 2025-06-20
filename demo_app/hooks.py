@@ -243,5 +243,11 @@ app_license = "mit"
 # }
 
 # Test update: Added this comment to show Git changes for manager review
+
 fixtures = ["DocType"]
 
+doc_events = {
+    "Serial Voucher": {
+        "before_save": "demo_app.doctype.serial_voucher.serial_voucher.generate_serials"
+    }
+}
